@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
             <div className="absolute inset-0 -z-10 rounded-3xl bg-gradient-to-b from-white/10 to-white/0 blur-xl" />
-            <img src="/vite.svg" alt="Avatar" className="h-48 w-48 rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl sm:h-56 sm:w-56" />
+            <img src="/profile.jpg" alt="Prabhpreet Singh" className="h-48 w-48 rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl sm:h-56 sm:w-56" />
           </div>
         </div>
       </div>
