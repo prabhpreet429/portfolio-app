@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Certifications from './components/Certifications'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <WorkExperience />
         <Education />
         <Projects />
+        <Certifications />
         <Skills />
         <Contact />
       </main>

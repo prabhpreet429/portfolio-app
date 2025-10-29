@@ -35,15 +35,27 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "Project 4",
-      description: "React • Tailwind • API",
-      link: "#"
+      title: "Twitter Analysis",
+      description: "Play Framework • Java 8 • JavaScript • Eclipse IDE",
+      link: "#",
+      details: [
+        "Implemented Java 8 for designing web page using MVC pattern to retrieve the latest tweets on to a web page using Twitter API",
+        "Computed the geographical location of a tweet by using the latitude and longitude",
+        "Learned about the use of Future in Java for storing results that can take place in future"
+      ]
     },
     {
       id: 5,
-      title: "Project 5",
-      description: "React • Tailwind • API",
-      link: "#"
+      title: "Restaurant Management and Billing System",
+      description: "Java • SQL • Oracle Database • Netbeans IDE",
+      link: "#",
+      details: [
+        "Implemented Java Swing to create User Interface for customers",
+        "Planned to design a customer-centric application to limit the wait time experienced during ordering of food",
+        "Enabled the customer to login using unique table number and mobile number and order food in their currency",
+        "Enabled chef to login and go through customer order and prepare the order",
+        "Implemented Oracle database to keep track of customer's records and their most ordered food"
+      ]
     },
     {
       id: 6,
