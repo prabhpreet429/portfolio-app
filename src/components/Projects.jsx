@@ -69,27 +69,57 @@ export default function Projects() {
     <section id="projects" className="container-prose">
       <h2 className="mb-6 text-2xl font-semibold">Featured Projects</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
-          <a key={project.id} href={project.link} target={project.link.startsWith('http') ? '_blank' : '_self'} rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined} className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4 transition-transform hover:-translate-y-1 hover:bg-white/10">
-            {project.images ? (
-              <ImageSlideshow images={project.images} title={project.title} />
-            ) : (
-              <div className="h-40 rounded-xl bg-gradient-to-br from-[var(--color-primary)]/25 to-[var(--color-secondary)]/25" />
-            )}
-            <div className="mt-4">
-              <h3 className="font-semibold">{project.title}</h3>
-              <p className="text-sm text-white/60">{project.description}</p>
-              {project.details && (
-                <ul className="mt-3 space-y-1 text-xs text-white/70">
-                  {project.details.map((detail, index) => (
-                    <li key={index}>• {detail}</li>
-                  ))}
-                </ul>
+        {projects.map((project) => 
+          project.link !== "#" ? (
+            <a 
+              key={project.id} 
+              href={project.link} 
+              target={project.link.startsWith('http') ? '_blank' : '_self'} 
+              rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined} 
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4 transition-transform hover:-translate-y-1 hover:bg-white/10 cursor-pointer"
+            >
+              {project.images ? (
+                <ImageSlideshow images={project.images} title={project.title} />
+              ) : (
+                <div className="h-40 rounded-xl bg-gradient-to-br from-[var(--color-primary)]/25 to-[var(--color-secondary)]/25" />
               )}
-              <span className="mt-2 block text-xs text-white/60 group-hover:text-white/80">View →</span>
+              <div className="mt-4">
+                <h3 className="font-semibold">{project.title}</h3>
+                <p className="text-sm text-white/60">{project.description}</p>
+                {project.details && (
+                  <ul className="mt-3 space-y-1 text-xs text-white/70">
+                    {project.details.map((detail, index) => (
+                      <li key={index}>• {detail}</li>
+                    ))}
+                  </ul>
+                )}
+                <span className="mt-2 block text-xs text-white/60 group-hover:text-white/80">View →</span>
+              </div>
+            </a>
+          ) : (
+            <div 
+              key={project.id} 
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4"
+            >
+              {project.images ? (
+                <ImageSlideshow images={project.images} title={project.title} />
+              ) : (
+                <div className="h-40 rounded-xl bg-gradient-to-br from-[var(--color-primary)]/25 to-[var(--color-secondary)]/25" />
+              )}
+              <div className="mt-4">
+                <h3 className="font-semibold">{project.title}</h3>
+                <p className="text-sm text-white/60">{project.description}</p>
+                {project.details && (
+                  <ul className="mt-3 space-y-1 text-xs text-white/70">
+                    {project.details.map((detail, index) => (
+                      <li key={index}>• {detail}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </div>
-          </a>
-        ))}
+          )
+        )}
       </div>
     </section>
   )

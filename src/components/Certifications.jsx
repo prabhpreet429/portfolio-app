@@ -58,7 +58,6 @@ export default function Certifications() {
             />
             <div className="mt-2">
               <h3 className="font-semibold text-white/90">{cert.title}</h3>
-              <p className="text-sm text-white/60 mt-1">Professional Certification</p>
               <span className="mt-2 block text-xs text-white/60 group-hover:text-white/80">Click to view →</span>
             </div>
           </div>

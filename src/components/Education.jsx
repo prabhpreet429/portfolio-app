@@ -9,7 +9,7 @@ export default function Education() {
             <span className="text-xs text-white/60">Jan 2018 – Apr 2020</span>
           </div>
           <p className="text-white/70 text-sm">Concordia University, Montreal, Canada</p>
-          <p className="text-white/70 text-sm mt-2">Current GPA: 3.57/4.3</p>
+          <p className="text-white/70 text-sm mt-2">GPA: 3.57/4.3</p>
           <p className="text-white/70 text-sm mt-3">
             <span className="text-white">Relevant Courses:</span> Advanced Database, Software Architecture, Advanced Programming Practices, Software Comprehension and Maintenance, Data Mining, Software Design Methodologies, Software Engineering Processes
           </p>
@@ -20,7 +20,7 @@ export default function Education() {
             <span className="text-xs text-white/60">Aug 2013 – May 2017</span>
           </div>
           <p className="text-white/70 text-sm">Chandigarh University, India</p>
-          <p className="text-white/70 text-sm mt-2">Cumulative GPA: 8.6/10</p>
+          <p className="text-white/70 text-sm mt-2">GPA: 8.6/10</p>
           <p className="text-white/70 text-sm mt-3">
             <span className="text-white">Relevant Courses:</span> C, C++, Java, Data Structure, Operating System, Compiler Design, Computer Hardware
           </p>
