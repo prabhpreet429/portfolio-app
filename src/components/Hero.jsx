@@ -10,9 +10,6 @@ export default function Hero() {
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             Full-Stack Software Developer
           </h1>
-          <p className="text-white/70 max-w-prose">
-            A passionate Full Stack Developer with a strong background in delivering high-quality software solutions across front-end and back-end, following Agile methodologies.
-          </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <a href="#projects" className="rounded-xl bg-white/10 px-4 py-2 text-sm font-medium hover:bg-white/15">View Projects</a>
             <a href="#contact" className="rounded-xl border border-white/15 px-4 py-2 text-sm font-medium hover:bg-white/05">Get in touch</a>
