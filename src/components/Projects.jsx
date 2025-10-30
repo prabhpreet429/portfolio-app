@@ -3,12 +3,6 @@ import ImageSlideshow from './ImageSlideshow'
 export default function Projects() {
   const projects = [
     {
-      id: 1,
-      title: "Project 1",
-      description: "React • Tailwind • API",
-      link: "#"
-    },
-    {
       id: 2,
       title: "Network Intrusion Detection System",
       description: "Python • WEKA GUI • Jupyter Notebook",
@@ -56,12 +50,6 @@ export default function Projects() {
         "Enabled chef to login and go through customer order and prepare the order",
         "Implemented Oracle database to keep track of customer's records and their most ordered food"
       ]
-    },
-    {
-      id: 6,
-      title: "Project 6",
-      description: "React • Tailwind • API",
-      link: "#"
     }
   ]
 

@@ -5,39 +5,44 @@ export default function Certifications() {
   
   const certifications = [
     {
+      id: 0,
+      title: 'OWASP Top 10',
+      image: '/certifications/owasp.png'
+    },
+    {
       id: 1,
-      title: 'Bootstrap',
-      image: '/certifications/bootstrap.PNG'
+      title: 'Front-End Web UI Frameworks and Tools: Bootstrap 4',
+      image: '/certifications/bootstrap.png'
     },
     {
       id: 2,
       title: 'Data Structures',
-      image: '/certifications/data.PNG'
+      image: '/certifications/data.png'
     },
     {
       id: 3,
-      title: 'JavaScript',
-      image: '/certifications/javascript.PNG'
+      title: 'Programming Foundations with JavaScript, HTML and CSS',
+      image: '/certifications/javascript.png'
     },
     {
       id: 4,
-      title: 'JavaScript (Pluralsight)',
-      image: '/certifications/javascriptplural.PNG'
+      title: 'JavaScript: Getting Started',
+      image: '/certifications/javascriptplural.png'
     },
     {
       id: 5,
-      title: 'JSON',
-      image: '/certifications/json.PNG'
+      title: 'Hands-on JavaScript Project: JSON',
+      image: '/certifications/json.png'
     },
     {
       id: 6,
-      title: 'Python Basics',
-      image: '/certifications/py.PNG'
+      title: 'Python: The Big Picture',
+      image: '/certifications/py.png'
     },
     {
       id: 7,
-      title: 'Python Advanced',
-      image: '/certifications/python.PNG'
+      title: 'Programming for Everybody (Getting Started with Python)2',
+      image: '/certifications/python.png'
     }
   ];
 
