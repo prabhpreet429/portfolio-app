@@ -1,5 +1,6 @@
 [[headers]]
-  for = "/*"
+  # Only force HTML content-type for the index page
+  for = "/index.html"
     [headers.values]
     Content-Type = "text/html; charset=utf-8"
 

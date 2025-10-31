@@ -17,11 +17,12 @@ export default function ImageSlideshow({ images, title }) {
 
   return (
     <div className="relative">
-      <div className="h-40 rounded-xl overflow-hidden bg-gradient-to-br from-[var(--color-primary)]/25 to-[var(--color-secondary)]/25">
+      {/* Use a flexible container and `object-contain` so images keep their aspect ratio and don't get cropped */}
+      <div className="h-40 sm:h-48 md:h-56 rounded-xl overflow-hidden bg-gradient-to-br from-[var(--color-primary)]/25 to-[var(--color-secondary)]/25 flex items-center justify-center p-2">
         <img 
           src={images[currentIndex]} 
           alt={`${title} screenshot ${currentIndex + 1}`}
-          className="w-full h-full object-cover"
+          className="max-w-full max-h-full object-contain"
         />
       </div>
       

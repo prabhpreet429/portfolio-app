@@ -13,9 +13,6 @@ export default defineConfig({
       }
     }
   },
-  server: {
-    headers: {
-      'Content-Type': 'application/javascript'
-    }
-  }
+  // Do not set global Content-Type headers here — that can cause HTML or other assets
+  // to be served with the wrong MIME type in dev. Netlify headers are handled by netlify.toml.
 })

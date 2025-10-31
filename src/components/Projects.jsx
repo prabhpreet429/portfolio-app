@@ -50,6 +50,8 @@ export default function Projects() {
         "Enabled chef to login and go through customer order and prepare the order",
         "Implemented Oracle database to keep track of customer's records and their most ordered food"
       ]
+      ,
+      images: ["/restaurant.png"]
     }
   ]
 
