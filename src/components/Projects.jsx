@@ -3,6 +3,22 @@ import ImageSlideshow from './ImageSlideshow'
 export default function Projects() {
   const projects = [
     {
+      id: 1,
+      title: "SchoolSprint",
+      description: "Next.js • Express.js • AWS • Nov. 2025",
+      link: "https://github.com/prabhpreet429/school-sprint",
+      details: [
+        "Built using Next.js (frontend) and Express.js (backend) with full CRUD operations for schools, teachers, students, exams, results, and fee management",
+        "Implemented role-based access and secure REST APIs enabling multi-school/tenant support",
+        "Resolved HTTPS/HTTP port conversion issue: Unable to access API endpoints from HTTPS Amplify frontend to HTTP port 80 on EC2 backend due to mixed content security restrictions",
+        "Solution: Created a new domain, configured SSL certificate, and pointed it to EC2 IP address to enable secure HTTPS communication between frontend and backend",
+        "Deployed backend on AWS EC2 and frontend on AWS Amplify, configured with custom domain, API routing, and HTTPS/SSL protection",
+        "Configured AWS RDS PostgreSQL database for persistent data storage with automated backups and connection pooling",
+        "Integrated AWS S3 for scalable file storage and retrieval of documents, images, and user-uploaded content with proper access control"
+      ],
+      images: ["/schoolsprint/dashboard.png", "/schoolsprint/teachers.png", "/schoolsprint/students.png"]
+    },
+    {
       id: 2,
       title: "Network Intrusion Detection System",
       description: "Python • WEKA GUI • Jupyter Notebook",
