@@ -22,7 +22,7 @@ export default function Skills() {
         <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
           <h3 className="mb-4 text-lg font-semibold text-green-500">Technologies & Tools</h3>
           <div className="flex flex-wrap gap-2">
-            {["ASP .NET", "Microsoft SQL Server", "MySQL", "GIT", "JSON", "AJAX", "REST API", "Entity Framework", "Postman", "Google Firebase", "JUnit", "PMD", "Sonar Lint", "WordPress", "Cursor AI"].map((skill) => (
+            {["ASP .NET", "Microsoft SQL Server", "MySQL", "GIT", "REST API", "Entity Framework", "Postman", "Google Firebase", "JUnit", "WordPress", "Cursor AI", "AWS (EC2, RDS, S3, Amplify)", "Docker"].map((skill) => (
               <span key={skill} className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-white/80">{skill}</span>
             ))}
           </div>
